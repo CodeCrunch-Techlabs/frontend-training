@@ -1,0 +1,123 @@
+
+
+.column-layout{
+    background-color: rgb(31, 68, 233);
+    padding: 5px 40px;
+    display: flex;
+    color: white;
+    width: 100%;
+}
+.column1{
+    flex: 1;
+    order: 1;
+    
+}
+.column2{
+    flex: 1;
+    order: 1;
+}
+.column3{
+    flex: 1;
+    order: 1;
+}
+.column4{
+    flex: 1;
+    order: 1;
+}
+.column5{
+    flex: 1;
+    order: 1;
+}
+.column-layout span{
+    color: white;
+}
+.Top{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.Top button{
+    float: right;
+    border-radius: 4px;
+    padding: 2px;
+    border: none;
+    color: rgb(250, 251, 253);
+    background-color: rgb(204, 205, 206);
+    float: right;
+}
+
+.carousel-inner button {
+    width: 100%;
+    height: 100%;
+  }
+
+.crypto button,input{
+    float: right;
+    border-radius: 8px;
+    padding: 8px;
+    padding-right: 16px;
+    padding-left: 16px;
+    border: none;
+}
+
+.currency-rate table{
+    width: 100%;    
+}
+
+.currency-rate table tr td{
+    border: 5px solid white;
+    border-radius: 8px;
+    margin: 4px;
+}
+
+.currency-table table tr th, td{
+    border-bottom: 1px solid #ddd;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+  }
+
+  h3, span{
+    color: darkslateblue;
+}
+p{
+    margin: 0%;
+    padding: 0%;
+    color: dimgrey;
+}
+
+.carousel-item{
+    display: flex;
+    color: rgb(69, 69, 224);
+    align-items: stretch;
+    padding: 3em;
+    margin: 0%;
+}
+
+.bottom-table table{
+    background-color: rgb(240, 236, 236);
+}
+.bottom-table table tr th img{
+    width: 90%;
+}
+
+
+
+.card-body h6{
+    padding: 8px;
+    border: darkgrey;
+    color: white;
+    border-radius: 8px;
+    text-align: left;
+}
+
+@media only screen and (max-width: 600px){
+    #demo{
+        max-width: 80%;
+    }
+} 
+
