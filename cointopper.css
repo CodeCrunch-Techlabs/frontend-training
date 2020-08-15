@@ -116,8 +116,28 @@ p{
 }
 
 @media only screen and (max-width: 600px){
-    #demo{
-        max-width: 80%;
+   
+    #a3{
+        display: none;
+    }#a4{
+        display: none;
+    }
+    #a5{
+        display: none;
+    }
+    #a6{
+        display: none;
     }
 } 
+@media only screen and (min-width: 601px) and (max-width: 992px){
+    #a4{
+        display: none;
+    }
+    #a5{
+        display: none;
+    }
+    #a6{
+        display: none;
+    }
+}
 
