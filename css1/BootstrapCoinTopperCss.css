@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "EB Garamond";
+    text-decoration: none;
+    list-style: none;
+}
+ul li a{
+    color: black;
+}
+.logo{
+    margin: 20px;
+}
+.navbar-nav{
+    margin-left:420px ;
+    margin-top: 35px;
+}
+.nav-item{
+    font-size:22px;
+    padding-left: 30px;
+}
+.actives{
+    width: 100px;
+    font-size:20px;
+    background:linear-gradient(to right,#1c60b8 1%,#3c99dd 100%);
+    color: white;
+    border:1px solid linear-gradient(to right,#1c60b8 1%,#3c99dd 100%);
+    border-radius: 5px;
+}
+.actives:hover{
+    color: white;
+}
+.bg{
+    background: linear-gradient(to right,#1c60b8 1%,#3c99dd 100%);
+    padding: 10px;
+    color: white;
+}
+
+.btns{
+    background: lightgrey;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border:1px solid lightgrey;
+    border-radius: 10px;
+    float:right;
+}
+.btns:hover{
+    text-decoration: none;
+    color: white;
+}
+.btns1{
+    background: rgb(175, 154, 154);
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border:1px solid lightgrey;
+    border-radius: 10px;
+    float:right;
+}
+.btns1:hover{
+    text-decoration: none;
+    color: white;
+}
+.input-icons i{
+    position: absolute;
+}
+.input-icons{
+    width: 100%;
+    margin-top:-40px;
+    margin-left:100px;
+}
+.icon{
+    padding: 10px;
+    color:white;
+    min-width: 50px;
+    text-align: center;
+}
+.input-field{
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    border:1px solid gainsboro;
+    border-radius: 13px;
+    background-color: gainsboro;
+}
+.butt1{
+    width:150px;
+    height:90px;
+    padding-top: 10px;
+    padding-bottom:0;
+    padding-left: 0;
+    /*padding:30px;*/
+    margin-left: 60px;
+    background:-webkit-linear-gradient(left, #F8A008 1%, #F8A040 100%);
+    border:1px solid orange;
+    border-radius: 15px;
+    display: inline-block;
+}
+#icon{
+    margin: 0;
+    padding: 0;
+    color:white;
+    font-weight:bold;
+    transform:rotate(45deg);
+}
+#icons{
+    margin: 0;
+    padding: 0;
+    color:green;
+    font-weight:bold;
+    transform:rotate(45deg);
+}
+#icons2{
+    margin: 0;
+    padding: 0;
+    font-weight:bold;
+    transform:rotate(240deg);
+    color: red;
+}
+.sps2{
+    float:right;
+    margin-top: -22px;
+    border-radius: 100%;
+}
+.has-search .form-control {
+    padding-left: 2.375rem;
+    background: lightgrey;
+}
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 1.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: white;
+}
+.form-group{
+    float: right;
+    margin-top: -30px;
+    margin-right: 5px;
+}
+.us{
+    padding: 8px;
+    background: lightgrey;
+    color: white;
+    text-decoration: none;
+    float: right;
+    border-radius: 10px;
+    margin-top: -30px;
+}
+.uss{
+    margin-left: 300px;
+}
+.us:hover{
+    color: white;
+    text-decoration: none;
+}
+.pre{
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius:10px;
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+}
+.pre:hover{
+    text-decoration: none;
+    color: grey;
+}
+.form-box{
+    width: 320px;
+    height: 320px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+th{
+    color: #245da6;
+    font-weight: bold;
+}
+td{
+    color: #245da6;
+    font-size:18px;
+}
+td:nth-child(1){
+    color: silver;
+}
+td:nth-child(3){
+    color: green;
+}
+.imgs{
+    border-radius: 20px;
+    width:318px;
+    height: 200px;
+}
+.contain{
+    object-fit: scale-down;
+}
+.dat{
+    float:right;
+    color: grey;
+    font-size:17px;
+}
+.dats{
+    float:right;
+    color: grey;
+    font-size:17px;
+    margin-top:37px;
+}
+.text:hover{
+    text-decoration: none;
+}
+.text{
+    text-decoration: none;
+    font-size: 20px;
+    color: blue;
+    font-weight: bold;
+}
+#bt{
+    margin-left: 250px;
+}
+.footer{
+    background:#e7ebed;
+    margin-top:20px ;
+}
+.footer-bottom{
+    padding-top: 20px;
+    background: #bfc6cb;
+}
+.footer-links a:hover{
+    text-decoration: none;
+}
+.footer-link-title{
+    color: #245da6;
+}
+.fa-heart{
+    color: red;
+}
+.footer-links ul li a{
+    padding-top: 10px;
+}
+.footer-text a{
+    text-decoration: none;
+    color: black;
+}
+.fb{
+    border:1px solid linear-gradient(to right, #1c60b8 1%,#3c99dd 100%);
+    background: linear-gradient(to right, #1c60b8 1%,#3c99dd 100%);
+    color: white;
+    padding: 11px;
+    padding-bottom:8px ;
+    border-radius: 100%;
+}
+.gp{
+    border:1px solid linear-gradient(to right, #d14639 1%,#c64a3f 100%);
+    background: linear-gradient(to right, #d14639 1%,#c64a3f 100%);
+    color: white;
+    border-radius: 100%;
+    padding: 11px;
+    padding-bottom:8px ;
+}
+.twitter{
+    border:1px solid linear-gradient(to right, #1da1f2 1%, #1da1f2 100%);
+    background: linear-gradient(to right, #1da1f2 1%, #1da1f2 100%);
+    color: white;
+    border-radius: 100%;
+    padding: 11px;
+    padding-bottom:8px ;
+}
+.tel{
+    border:1px solid linear-gradient(to right, #2aabde 1%,#3db8e5 100%);
+    background: linear-gradient(to right, #2aabde 1%,#3db8e5 100%);
+    color: white;
+    border-radius: 100%;
+    padding: 11px;
+    padding-bottom:8px ;
+}
+.youtube{
+    border: 1px solid linear-gradient(to right, #ff0000 1%, #ff0000 100%);
+    background: linear-gradient(to right, #ff0000 1%, #ff0000 100%);
+    color: white;
+    border-radius: 100%;
+    padding: 11px;
+    padding-bottom:8px ;
+}
+.insta{
+    border: 1px solid linear-gradient(to right, #a739a6 1%,#fca644 100%);
+    background: linear-gradient(to right, #a739a6 1%,#fca644 100%);
+    color: white;
+    padding: 7px;
+    border-radius: 35px;
+}
+@media(max-width:852px){
+    .logo{
+        width: 150px;
+        height: 50px;
+    }
+    .navbar-nav{
+        margin: 0;
+    }
+    .btns{
+        margin-top: -35px;
+        margin-right: 14px;
+    }
+    #alt{
+        margin-top: -55px;
+        margin-left: 150px;
+    }
+    .butt1{
+        width: 120px;
+        height: 90px;
+    }
+    .sps2{
+        width: 20px;
+        height: 18px;
+    }
+    .mk2{
+        display: none;
+    }
+    .mk1{
+        display: none;
+    }
+    .form-group{
+        margin-right: 30px;
+        margin-top: 0;
+    }
+    .us{
+        margin-left: -5px;
+        margin-top: 0;
+    }
+    .form-box{
+        width: 180px;
+        height: 250px;
+        margin-left: 25px;
+    }
+    .imgs{
+        width: 180px;
+        height: 110px;
+        object-fit:fill ;
+    }
+    .text{
+        font-size:17px;
+    }
+    .btns1{
+        margin-top: -50px;
+        margin-right: 30px;
+    }
+    #bt{
+        margin: 0;
+    }
+}
